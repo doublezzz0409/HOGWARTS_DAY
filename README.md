@@ -1,332 +1,160 @@
 # HOGWARTS_DAY
 
-### A Reusable First-Person World-Experience Storytelling Workflow
+### An agent workflow for research-driven, first-person world-experience video creation
 
 **English** · [中文](README.zh-CN.md)
 
-**让观众不只是观看一个世界，而是想要生活在其中。**
+**Make the audience not just watch a world — but want to live in it.**
 
-HOGWARTS_DAY is a reusable creative workflow for designing first-person world-experience stories and immersive short-form videos.
+HOGWARTS_DAY is a creative workflow project built for AIGC video production. Its goal is not simply to generate video, but to establish a reusable pipeline that runs from **world research → episode-level creative planning → scene and shot direction → video-generation prompt assembly**.
 
-It explores how to transform the places, activities, routines, and emotional experiences of a fictional world into compelling audiovisual experiences that make audiences wish they could step inside that world.
+Although HOGWARTS_DAY is currently the practice project (set in the Wizarding World), it is designed to be **adaptable across genres and projects** — not a prompt repository for making Hogwarts videos only.
+
+> Honest scope: the cross-project architecture has a foundation, but it has **not yet been validated end-to-end across different subject matter**. The v0.1 workflow is in active development; see [Current Status](#-current-status) for exactly what is and is not verified.
 
 ---
 
-## ✨ The Vision
+## ✨ Vision
 
 What makes an audience fall in love with a fictional world?
 
-Not just its spectacular landscapes, extraordinary creatures, or magical powers.
+Not just spectacular landscapes, extraordinary creatures, or magical power — but the feeling that there is a life waiting for them inside that world.
 
-It is the feeling that there is a life waiting for them inside that world.
+A place to visit. A routine to experience. A small discovery to remember. Someone to spend time with. A world they do not want to leave.
 
-A place to visit.  
-A routine to experience.  
-A small discovery to remember.  
-Someone to spend time with.  
-A world they do not want to leave.
-
-HOGWARTS_DAY is built around one central creative ambition:
+The project is built around one creative ambition:
 
 > **Make the audience want to live in the world they have just watched.**
 
-The goal is not simply to present a collection of beautiful shots. It is to design experiences that allow audiences to imagine themselves as participants rather than distant observers.
-
-## 🎯 Core Experience Design
-
-The project explores a four-stage audience journey:
+The four-stage audience journey that organizes all creative work:
 
 **Recognition → Experience → Connection → Desire**
 
 | Stage | Creative objective |
 |---|---|
 | Recognition | Introduce a world that feels distinctive and worth exploring. |
-| Experience | Let the audience imagine participating in its everyday activities and extraordinary moments. |
+| Experience | Let the audience imagine joining its everyday activities and extraordinary moments. |
 | Connection | Build emotional attachment through routines, relationships, and small details. |
 | Desire | Leave the audience wishing they could stay and experience more. |
 
-Three creative dimensions support this journey:
+The pipeline moves from **world research** to **audience-experience design** to **video generation**: understand the world, decide what the audience should experience, then produce the prompts that realize it on screen.
 
-- **World Wonders:** What makes the audience stop and stare?
-- **Unique Experiences:** What makes the audience want to participate?
-- **Life & Emotion:** What makes the audience want to stay?
+---
 
-## 🧭 The Workflow
+## 🧭 Workflow Overview
 
-HOGWARTS_DAY uses a staged creative workflow. Each stage has a defined responsibility and deliverable.
+The project organizes creative work into long-horizon workflows. The three currently defined are:
 
-| Workflow | Responsibility |
-|---|---|
-| WF-00 · Project Initialization & Task Routing | Establish project context, constraints, and task ownership. |
-| WF-01 · World-Life Research | Investigate the world's canon, everyday life, activities, locations, and experience opportunities. |
-| WF-02 · Creative Planning | Develop the overall creative direction and experience strategy. |
-| WF-03 · Director Script → Video Prompt Production | Turn the approved WF-02 director script into executable video-generation prompts and generation tasks. Detailed rules: `core/WF-03-导演稿到视频提示词加工工作流-v1.0.md`. |
-| WF-04 · Director Integration | Connect approved scenes into a coherent audiovisual experience. |
-| WF-05 · Production & Review | Prepare production, evaluate results, and feed insights back into the workflow. |
-
-### The Boundary Between WF-01 and WF-02
-
-The division of responsibility between research and planning is deliberately clear:
-
-- **WF-01** is responsible for finding out *what in this world is worth experiencing.*
-- **WF-02** is responsible for deciding *what we will take the audience to experience, and how to organize these experiences into a compelling whole.*
-
-In short: WF-01 discovers what there is to experience; WF-02 chooses what to experience and how to structure it.
-
-### WF-02 Multi-Dimensional Creative Decision Map
-
-> This is a coverage checklist for subsequent research, not a fixed scoring rubric.
-
-**01. Audience Appeal**
-
-- Does it spark curiosity?
-- Does it have a broad base of interest?
-- Is there a unique, clear viewing promise?
-- Can audiences from different backgrounds understand it?
-
-**02. Experiential Value**
-
-- What exactly can the audience experience?
-- Is it watching, participating, exploring, or gaining some kind of identity?
-- Does it offer an experience that the real world cannot provide?
-- Does it create a desire to experience it in person?
-
-**03. World Distinctiveness**
-
-- Does it fully express this world's unique rules?
-- Is it just ordinary life with a magical skin?
-- Does it reveal a lesser-known side of the world?
-- Is it consistent with canon and world-building?
-
-**04. Emotion & Psychological Connection**
-
-- Does it evoke wonder, joy, warmth, curiosity, or relaxation?
-- Does it create a sense of belonging?
-- Does it make the audience long for life here?
-- Does it form an emotional memory anchor?
-
-**05. Relationships Between Experiences**
-
-- Can several experiences connect with one another?
-- Is there sequence and causality?
-- Do they repeatedly express the same kind of value?
-- Does the combination create new value that individual experiences lack?
-
-**06. Overall Narrative & Pacing**
-
-- Is there a complete experiential arc across a day?
-- Is there an opening, development, climax, and ending?
-- Are there boring, crowded, or broken parts?
-- Is there enough variation and anticipation?
-
-**07. Attention & Reach**
-
-- How to attract clicks?
-- How to keep providing reasons to watch?
-- How to pace information release and surprises?
-- How to deliver on the opening promise?
-- Does it have share and discussion value?
-
-**08. Production & Feasibility**
-
-- Can AI reliably realize it?
-- Are characters, spaces, and magic prone to drift?
-- Are reference images or complex continuous shots needed?
-- Is the cost-to-benefit ratio reasonable?
-- Are there copyright, factual, or safety concerns?
-
-**09. Serialization & Long-Term Value**
-
-- Can it form a series identity?
-- Are there other worlds or locations to extend into?
-- Does it easily make audiences anticipate the next episode?
-- Does it help build a distinctive channel brand?
-
-### WF-02 Module Research Contributions & Completion Status
-
-| Module | Current research contribution | Completion |
+| Workflow | Responsibility | Definition status |
 |---|---|---|
-| Module 0: Research foundations & problem map | Established partial categorization of creative questions, and factual and research boundaries | Partially covered |
-| Module 1: Creative generation mechanisms | Creative sources, creative transformation, cross-domain transfer, concept deepening | Reference-level stage result; not formally accepted |
-| Module 2: Experiential value & selection mechanisms | Established the necessity of multi-dimensional evaluation and initial awareness of the problem | v1.0 completed; pending director acceptance |
-| Module 3: Experience composition & overall structure | Recognized that individual brilliance does not equal overall value | v1.0 completed; director-accepted |
-| Module 4: Audience attention & experience delivery | Distinguished spread/attention appeal from genuine experiential value | v1.0 completed; director-accepted |
-| Module 5: Production constraints & quality verification | Preliminarily clarified the separation of creative value and production feasibility | Deferred |
-| Module 6: Integration, case validation & method transfer | Conducted a single-video creative-generation stress test, but have not validated the full decision system | Deferred |
+| **WF-01 · World Research** | Research the world, setting, locations, daily life, experiences, and raw material usable for video creation. Produces world knowledge and candidate experiences. | Research practice done; formal spec not yet consolidated into the repo (see status) |
+| **WF-02 · Episode Creative Planning** | Turn an idea seed into a complete episode director's script through a seven-stage process. | Closed after first real end-to-end run (V0.2.1) |
+| **WF-03 · Director Script → Video-Generation Prompt Assembly** | Convert a WF-02 director script into executable video-generation prompts, per director-specified scope and strategy. | Definition v1.1 approved; first real processing done; long-term stability unverified |
 
-### WF-02 Overall Research Roadmap
+> WF-04 (global director integration) and WF-05 (production & review) are specified at a high level in `WORKFLOW_SPEC.md` but **not yet started**.
 
-1. **Module 0: Research foundations & problem map** · Preliminary plan established
-   Define research goals, problem scope, research subjects, evidentiary requirements, and the boundaries between modules.
+Detailed definitions live in **`WORKFLOW_SPEC.md`** (WF-00~WF-05) and **`core/WF-03-导演稿到视频提示词加工工作流-v1.0.md`** (authoritative WF-03 spec). The README summarizes; the specs are the source of truth.
 
-2. **Module 1: Creative generation mechanisms** · Initial results available
-   Study how to generate ideas, discover opportunities, perform creative transformation, transfer across domains, and deepen concepts.
+### WF-01 · World Research
 
-   Core question: How do we find ideas worth filming?
+Researches the creative subject's world: canon, setting, locations, ways of life, experiences, and usable material. The core objective is to **supply world knowledge and candidate experiences** for downstream planning.
 
-3. **Module 2: Experiential value & selection mechanisms** · Current stage, capacity testing pending
-   Study how to identify experiential value, judge whether an experience is worth filming, and distinguish different kinds of value and their evidence.
+Output: world research documents with source/credibility annotations, plus a **candidate-experience list** (candidates are marked and are not treated as approved until the director accepts them).
 
-   Core question: Why is an experience worth filming?
+> Note: WF-01 has completed a first formal practice run, but **that specific research report is not part of this workflow commit** and remains pending fact-correction and director acceptance. No consolidated formal WF-01 spec has been written into the repository yet.
 
-4. **Module 3: Experience composition & structure** · Not yet started
-   Study how to organize multiple experiences together to form an episode that has layers, variation, and overall appeal.
+### WF-02 · Episode Creative Planning
 
-   Core question: How do several good experiences combine into a good episode?
+Turns an idea seed into a complete episode-level director's script. Its seven-stage process:
 
-5. **Module 4: Audience attention & experience delivery** · Not yet started
-   Study opening appeal, attention maintenance, the viewing process, expectation building, experience delivery, and audience satisfaction.
+1. **Idea intake & task definition**
+2. **Idea development & experience selection**
+3. **Episode experience composition & structure design**
+4. **Audience attention & experience-delivery review**
+5. **SC scene planning**
+6. **SH shot-level director design**
+7. **Episode integration, quality check & delivery**
 
-   Core question: How do we keep the audience watching and deliver the promised experience?
+**Agent architecture:**
 
-6. **Module 5: Production constraints & quality verification** · Not yet started
-   Study creative production feasibility, AIGC implementation constraints, quality risks, and verification methods.
+- **One lead Agent** handles overall planning, orchestration, integration, and final delivery.
+- Specialist roles contribute on demand: **M1** idea generation, **M2** experience evaluation, **M3** structure design, **M4** attention design.
+- Specialist agents are **invoked as needed, not a mandatory parallel pipeline**.
+- The **director retains key creative decisions and approval authority.**
 
-   Core question: How does a good idea actually get produced with high quality?
+**SC vs SH:**
 
-7. **Module 6: Integration, case validation & method transfer** · Not yet started
-   Integrate earlier research results, conduct comprehensive case validation, and distill transferable methods.
+- **SC (scene unit)** — a scene unit of the episode.
+- **SH (shot design unit)** — a shot-level design unit.
+- **SH is not a video-generation clip.** One SH may be split into multiple generation tasks.
 
-   Core question: How do all the earlier studies form a creative planning system that actually works?
+### WF-03 · Director Script → Video-Generation Prompt Assembly
 
-### WF-02 Development Discipline for Subsequent Modules
+Converts a WF-02 director's script into executable prompts. Key properties:
 
-**Scope: the remaining development of Module 2, and all research and development work of Modules 3, 4, 5, and 6.**
+- **SC is the basic unit of processing**, but the director may specify a whole SC, a single SH, multiple SHs, or a specific generation task.
+- **One lead Agent independently completes the specified task.**
+- Each task actually reads the **final WF-02 director's script**, the **ACTING skill**, and the **CINEDANCE skill**.
+- **ACTING** handles observable character performance where applicable (on-screen characters only; never invent performance in pure-POV/no-character shots).
+- **CINEDANCE** handles space, first frame, optics, camera, physics, lighting, continuity, prompt assembly, and QA.
+- Supports **text-only T2V, reference images, first/last frames, multi-reference, or mixed strategies**, per the director's instructions.
+- Delivers **complete executable prompts, generation-task mapping, reference-asset manifest, and QA results**.
 
-#### 1. Always stay centered on the roadmap; no drift of research direction
+WF-03 **does not redesign the director's intent** and does not change the director-specified generation strategy.
 
-The goal of WF-02 is to process the world-experience candidates provided by WF-01 into video-experience designs that are genuinely worth watching. Each module must advance around the core tasks already set in the roadmap:
+---
 
-- **Module 2: Experiential value & selection mechanisms** — Solve which experiences are worth putting into a video, why they are worth it, and how to judge and select them.
-- **Module 3: Experience composition & overall structure** — Solve how multiple experiences combine and how to form an appealing whole rather than a mere pile of brilliant fragments.
-- **Module 4: Audience attention & experience delivery** — Solve why the audience clicks, why they keep watching, how expectations are built and delivered, and how satisfaction is achieved during viewing.
-- **Module 5: Production constraints & quality verification** — Solve how worthwhile ideas are realized in actual production and how to judge the quality of the final cut.
-- **Module 6: Integration, case validation & method transfer** — Solve whether the modules can form a complete decision system, be validated through real cases, and be distilled into reusable methods.
+## 🤖 Agent Architecture & DSH
 
-Do not upgrade some interesting theoretical problem that arises during research into a new main line.
+The project uses **DSH (DeepSeek Harness)** as its current execution environment. The workflows are designed around a **lead Agent** that routes and integrates work, with specialist sub-agents and skills called on demand — not a fixed parallel pipeline.
 
-#### 2. Study real content first, then summarize methods
+**Two reusable skills are shipped with the repository** (under `.dsh/skills/`) and are WF-03's execution dependency:
 
-1. Prioritize studying real creators, real works, real scenes, and real audience experiences.
-2. Research must go deep into concrete content: what the idea is, how the opening is presented, how the process advances, how audience expectations shift, and where surprise and satisfaction occur.
-3. Do not claim research is complete merely by listing abstract concepts, mechanism names, and theoretical classifications.
-4. Do not let frameworks replace cases, nor let the number of cases replace research depth.
-5. In particular, keep studying MrBeast's real works, examine why its content is worth watching, and then consider how to transfer it to the Hogwarts world.
+| Skill | Role |
+|---|---|
+| `acting` | The character-acting layer of video prompts: objectives, beats, tactics, subtext, body/status, eye life, voice. |
+| `cinedance-higgsfield` | Cinematic prompt direction for Seedance 2.0 / Higgsfield: scene context, spatial blocking, first frame, optics/FOV, camera, timing, physics, lighting, audio, continuity, reference control, and final prompt assembly. |
 
-#### 3. Never polish endlessly for the sake of a perfect framework
+> `.gitignore` uses **precise exceptions**: it tracks only these two named skills, not the whole `.dsh/` local runtime environment. The rest of `.dsh/` stays local and private.
 
-1. Do not pursue absolute theoretical completeness or fully uncontested conceptual boundaries.
-2. Do not repeatedly revise a framework that already works because of non-critical wording, classification, or terminology.
-3. Only stop to handle a problem when it substantively affects research conclusions, judgment accuracy, module responsibilities, or downstream execution.
-4. Solve problems that existing materials, evidence, and reasonable reasoning can resolve in the current stage, in one pass, rather than habitually deferring them.
-5. Once an output meets the current task goal, converge promptly; do not keep reviewing merely to find new problems.
+The workflow assets are **not tied to DSH** — the rules are written as portable documents. Migrating or adapting to another agent environment is possible in principle but **has not been verified**.
 
-**A research framework is a tool, not the research result itself.**
+---
 
-#### 4. Distinguish the severity of problems
+## 📂 Project Organization
 
-When a problem is found, first judge which category it belongs to:
+The repository separates **reusable workflow assets** from **project-specific instances**.
 
-- **Blocking problem:** Would cause core conclusions to be wrong, tasks to be unexecutable, or module responsibilities to be confused. Must be resolved before continuing.
-- **Substantive problem:** Affects conclusion quality but can be supplemented or corrected within current research. Resolve in the current stage in principle.
-- **General problem:** Does not affect the current goal; may be recorded and should not block development.
-- **Optimization problem:** Only makes expression, classification, or frameworks prettier. Do not do it without clear benefit.
+### Reusable workflow assets
 
-Do not treat every problem found as a problem that must be redone.
+- **`core/`** — reusable workflow definitions (e.g. the WF-03 spec).
+- **`planning/WF-02/`** — reusable WF-02 research methods and knowledge assets (M1–M4).
+- **`.dsh/skills/`** — the two reusable skills (`acting`, `cinedance-higgsfield`).
+- **Root rules & entry documents** — `AGENTS.md`, `PROJECT_RULES.md`, `WORKFLOW_SPEC.md`, `DECISION_LOG.md`, `PROJECT_STATE.md`.
 
-#### 5. Stay rigorous but do not manufacture false rigor
+### Project-specific instances
 
-1. Distinguish facts, primary evidence, creator expressions, research analysis, inferences, and unverified hypotheses.
-2. Do not package inferences as facts, nor judgments without audience data as actual audience feedback.
-3. When evidence is insufficient, state the uncertainty clearly; do not search endlessly for evidence just to appear complete.
-4. Do not reject the research value of existing evidence merely because some ideal type of evidence is missing.
-5. Do not generalize findings from a single case into a universal law.
-6. Match conclusions to the strength of the evidence.
+- **`planning/EPxx/`** — a specific episode's creative brief, director's script, scene plan, etc.
+- **`production/EPxx/`** — a specific episode's prompts, reference material, and video outputs.
 
-#### 6. Every module must produce actual development output
+An episode's creative content, director's script, generation prompts, reference assets, and video products are managed **separately** from the general workflow assets. Reusable methods live in `core/` and `planning/WF-02/`; a particular episode's material lives in `planning/EPxx/` and `production/EPxx/`.
 
-A module must not leave behind only research plans, problem lists, conceptual frameworks, and to-dos. It must progressively form:
-
-- An actual answer to the module's core question;
-- Research findings supported by real cases;
-- Methods usable for concrete creative decisions;
-- Necessary judgment criteria, counterexamples, and applicable boundaries;
-- Clear output that downstream modules can use.
-
-In particular, avoid modules waiting on one another: do not refuse to produce usable output in the current module merely because downstream modules are not yet developed.
-
-#### 7. Clear division of labor between modules without artificial barriers
-
-1. Handle only the problems the current module is genuinely responsible for.
-2. When a cross-module problem appears, first solve the part the current module can solve.
-3. Hand off only what genuinely requires in-depth handling by a downstream module.
-4. Do not habitually mark what could be solved now as "left to Module 3" or "left to Module 4."
-5. Downstream modules should use upstream outputs rather than repeatedly overturning completed upstream research.
-
-#### 8. Keep a clear sense of convergence
-
-Every research stage must answer three questions:
-
-1. What was this module originally meant to solve?
-2. What is solved now, and which substantive problems remain unsolved?
-3. Do the remaining problems actually prevent the module from being completed?
-
-If the core goal is reached and remaining problems are only general optimization, end the current stage and move to the next task. Do not keep adding research tasks to make the report look more complete.
-
-#### 9. Working responsibilities
-
-As a research and development collaborator, one must:
-
-- Proactively drive real research rather than passively designing processes.
-- Proactively point out research errors without turning fault-finding into the main job.
-- Judge the severity of problems rather than demanding rework whenever a problem is found.
-- Prioritize delivering genuinely useful output.
-- Not change the roadmap or expand research scope without authorization.
-- Not describe an unvalidated framework as a mature system.
-- Not manufacture complexity to appear professional.
-- When the director points out a drift from the center, return immediately to the module's core task without defending prior complex work.
-
-#### 10. Final principle
-
-**We develop WF-02 to learn how to create videos that truly attract audiences, not to build a seemingly perfect theoretical system.**
-
-Research must go deep, judgment must be rigorous, frameworks must be sufficient, and results must be usable. Better to complete one module with real cases, clear conclusions, and practical usability than to spend large amounts of time polishing a perfect framework that never enters actual creation.
-
-**Take solving problems as the endpoint, practical usability as the acceptance standard, and the overall roadmap as the direction.**
-
-### A Controlled Creative Process
-
-The workflow emphasizes explicit decisions and stage boundaries:
-
-- Research before creative planning.
-- Audience experience before shot design.
-- Develop, review, revise, and approve scenes individually.
-- Preserve the distinction between verified source material and creative interpretation.
-- Do not treat suggestions as approved decisions.
-- Do not advance a stage without satisfying its required conditions.
-
-The director retains final creative authority. AI agents assist with research, analysis, planning, documentation, and production tasks within explicitly defined boundaries.
-
-## 🏗️ Architecture
-
-The project separates reusable workflow rules from world-specific knowledge.
+> Note: not all of a given episode's material is necessarily committed to Git. General workflow assets and project-specific instances are managed under distinct boundaries, and large production outputs (video, renders, image assets) are excluded by `.gitignore`.
 
 ```text
 HOGWARTS_DAY/
-│
-├── core/           # Reusable workflow foundations
-├── world/          # World-specific knowledge
-│   ├── canon/      # Canonical facts and source material
-│   ├── experience/ # World experiences and research findings
-│   └── references/ # Supporting references
-│
-├── planning/       # Creative planning
-├── scenes/         # Individual scene development
-├── director/       # Director-level integration
-├── production/     # Production materials
-├── reviews/        # Reviews and evaluations
-├── assets/         # Approved reusable creative assets
-│
+├── core/            # Reusable workflow definitions
+├── planning/
+│   ├── WF-02/       # Reusable WF-02 research methods & knowledge (M1–M4)
+│   └── EPxx/        # Episode-specific planning (brief, script, SC plan, …)
+├── production/
+│   └── EPxx/        # Episode-specific prompts, references, outputs
+├── world/           # World research knowledge (canon / experience / references)
+├── scenes/          # Per-scene development
+├── director/        # Director-level integration
+├── reviews/         # Reviews & retrospectives
+├── assets/          # Approved reusable creative assets (index)
+├── .dsh/skills/     # The two reusable skills
 ├── AGENTS.md
 ├── PROJECT_RULES.md
 ├── PROJECT_STATE.md
@@ -334,87 +162,85 @@ HOGWARTS_DAY/
 └── DECISION_LOG.md
 ```
 
-The architecture is designed to keep two kinds of knowledge distinct:
+---
 
-**Reusable workflow knowledge**
+## 🚀 Quick Start
 
-Methods, procedures, decision rules, review standards, and collaboration protocols that can be reused across different fictional worlds.
+1. **Get the repository.**
+   ```bash
+   git clone https://github.com/doublezzz0409/HOGWARTS_DAY.git
+   cd HOGWARTS_DAY
+   ```
+2. **Confirm a DSH environment.** The workflows assume DSH as the current execution harness.
+3. **Confirm project rules are loaded.** `AGENTS.md` is the entry point and references `PROJECT_RULES.md` (full rules) and `DECISION_LOG.md` (director decisions).
+4. **Confirm the two skills are discoverable by name** from `.dsh/skills/acting/` and `.dsh/skills/cinedance-higgsfield/`.
+5. **Prepare an isolated project directory and project context** (e.g. `planning/EPxx/`, `production/EPxx/` for a new episode).
+6. **Invoke the appropriate workflow** for the task at hand:
+   - World/setting/life-experience questions → **WF-01**
+   - "What is this episode about?" → **WF-02**
+   - "Turn the director's script into video-generation prompts" → **WF-03**
 
-**World-specific knowledge**
-
-Canonical facts, locations, characters, activities, references, and approved experience designs belonging to a particular world.
-
-This separation is intended to make the workflow adaptable beyond Hogwarts.
-
-## 🤖 Human Direction, AI Collaboration
-
-This project treats AI as a collaborative production system, not an autonomous creative authority.
-
-The collaboration model is built on several principles:
-
-- The human director defines the creative intent and makes final decisions.
-- AI agents perform delegated tasks within explicit scopes.
-- Research claims must retain traceable sources.
-- Creative proposals must remain distinguishable from confirmed decisions.
-- Approved experiences and reusable findings can be preserved as project assets.
-- File modifications and Git operations require explicit authorization.
-
-The project also maintains decision records and project-state documentation to reduce ambiguity across long-running creative sessions.
-
-## 📍 Current Project Status
-
-<sub>Version: v0.1 · Initial public baseline</sub>
-
-The v0.1 baseline establishes the initial project structure, collaboration rules, and workflow specification.
-
-Current development has passed WF-01's first formal research execution and WF-02's first practical loop (closed at v0.2.1), and has entered WF-03 prompt production (definition v1.1 approved; EP01 SC03 first practical pass completed).
-
-| Area | Status |
-|---|---|
-| Initial project structure | Established |
-| Core collaboration rules | Established |
-| Workflow specification | Written |
-| WF-00 | Conditional Pass |
-| WF-01 | First formal research execution completed; report not included in this commit scope; fact corrections and director acceptance pending |
-| WF-02 | v0.2.1 first-practical loop closed; formally closed |
-| WF-03 | Definition v1.1 approved; EP01 SC03 first practical prompt-production pass completed; long-term stability not yet validated |
-| WF-04 / WF-05 | Not started (not to be described as started) |
-| Architecture validation through practical execution | In progress |
-
-The workflow specification has been established, but its practical effectiveness has not yet been fully validated. This project is being developed iteratively.
-
-## 🚀 Project Principles
-
-1. **Experience over spectacle.** Visual spectacle matters, but it should serve a meaningful audience experience.
-2. **Life over exposition.** Let audiences discover how a world works by experiencing it.
-3. **Emotion over information.** Facts make a world understandable; emotional connections make it memorable.
-4. **Research before invention.** Respect source material and clearly identify creative interpretations.
-5. **Approval before progression.** Preserve explicit decision boundaries throughout development.
-6. **Reusable knowledge over disposable output.** Turn approved discoveries into assets that can support future creative work.
-
-## 🌍 Beyond Hogwarts
-
-HOGWARTS_DAY begins with the Wizarding World as its initial creative environment.
-
-However, the larger ambition is to develop a reusable method for creating first-person experiences across different fictional worlds.
-
-A magical school.  
-A futuristic city.  
-A fantasy kingdom.  
-A world that exists only in someone's imagination.
-
-The underlying question remains the same:
-
-**If the audience could enter this world for one day, what would make them wish they could stay forever?**
+> This is a work-in-progress creative workflow, not packaged software. There are **no one-click installers or automation scripts**; some setup (DSH environment, skill registration, project context) is **manual**.
 
 ---
 
-## English Summary
+## 📍 Current Status
 
-HOGWARTS_DAY is an experimental, reusable workflow for first-person world-experience storytelling.
+<sub>Baseline: v0.1 · working draft under active development</sub>
 
-It combines world research, audience-experience design, scene development, director-level integration, and production review into a structured human-AI collaboration process.
+| Area | Status |
+|---|---|
+| **WF-01 · World Research** | First real practice research completed; the specific report is **not included in this workflow commit**; pending fact-correction and director acceptance. |
+| **WF-02 · Episode Creative Planning** | **V0.2.1 first real end-to-end run complete; formally closed.** |
+| — M1 · Idea generation | Reference-level stage results; **not formally accepted**. |
+| — M2 · Experience value & selection | v1.0 complete; **pending director acceptance** (results still marked candidate). |
+| — M3 · Experience composition & structure | v1.0 **formally accepted by the director**. |
+| — M4 · Audience attention & delivery | v1.0 **formally accepted by the director**. |
+| — M5 · Production constraints & QA | **Deferred** (director will evaluate personally). |
+| — M6 · Integration, case validation & method transfer | **Deferred**. |
+| **WF-03 · Prompt assembly** | Definition **v1.1 approved**; EP01 SC03 completed a **first real processing run**; **long-term stability and cross-project reuse not yet verified**. |
+| **WF-04 · Global director integration** | Not started. |
+| **WF-05 · Production & review** | Not started. |
 
-Its central ambition is to move beyond showing audiences what a fictional world looks like, and instead make them feel what it would be like to live there.
+> Important: research-level findings are candidate conclusions and have **not been empirically validated with real audience data**. A single successful run does **not** mean long-term stability is proven. Nothing here is described as audience-proven fact.
 
-**The project starts with Hogwarts, but the workflow is designed to go further.**
+---
+
+## ⚠️ Limitations & Roadmap
+
+**What is not yet verified:**
+
+- **No real audience data.** Retention, psychology, and "does the audience actually want to live in this world" are not measured. Attention findings rest on third-party structure analysis, not platform backend metrics.
+- **Cross-project reuse is unproven.** The architecture is designed to generalize beyond Hogwarts, but has not been validated on a different subject with a full real production.
+- **Long-term stability of WF-03 is unverified.** One real processing run (EP01 SC03) is not proof of sustained reliability.
+- **Reference assets are largely absent.** Character/location/prop reference images and a character profile/voice library do not yet exist, so reference-based (R2V) identity consistency cannot yet be truly executed.
+- **Fact status is not fully settled.** Some WF-01 canon facts and a continuity item remain pending; downstream prompts must carry those flags, not treat them as confirmed.
+- **M5/M6 deferred**, so production feasibility, continuity/cost risk, and whole-episode quality currently depend on the director's manual judgment.
+- **Not tied to one agent framework.** Besides DSH, portability to other agent environments is a stated goal, not a tested fact.
+
+**Toward validation:** the intended next step is to move from research toward **practical, creation-driven validation** — using M2/M3/M4 to plan a minimal sample, then learning from real generation and review. This validates the design logic; it does **not** substitute for audience data.
+
+---
+
+## 📜 Project Principles
+
+1. **Experience over spectacle.** Visual spectacle serves a meaningful audience experience.
+2. **Life over exposition.** Let audiences discover how a world works by experiencing it.
+3. **Emotion over information.** Facts make a world understandable; emotional connection makes it memorable.
+4. **Research before invention.** Respect source material; clearly mark creative interpretation.
+5. **Approval before progression.** Explicit decision boundaries; the director holds final creative authority.
+6. **Reusable knowledge over disposable output.** Turn approved discoveries into reusable workflow assets.
+
+For the full rules, see [`PROJECT_RULES.md`](PROJECT_RULES.md). For the six workflows' inputs/tasks/outputs, see [`WORKFLOW_SPEC.md`](WORKFLOW_SPEC.md). For director decisions, see [`DECISION_LOG.md`](DECISION_LOG.md). For live project state, see [`PROJECT_STATE.md`](PROJECT_STATE.md).
+
+---
+
+## 🌍 Beyond Hogwarts
+
+HOGWARTS_DAY begins with the Wizarding World as its first creative environment, but the larger ambition is a **reusable method for first-person world-experience video creation across different fictional worlds**.
+
+A magical school. A futuristic city. A fantasy kingdom. A world that exists only in imagination.
+
+The underlying question stays the same:
+
+**If the audience could enter this world for one day, what would make them wish they could stay forever?**
