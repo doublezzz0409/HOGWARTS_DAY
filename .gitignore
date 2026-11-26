@@ -1,0 +1,53 @@
+# ============================================================
+# HOGWARTS_DAY · .gitignore
+# 目标：仓库只保存"文本资产"（研究/策划/场景/导演/复盘/规格），
+#       大体积制作产物与中间渲染物一律排除。
+# ============================================================
+
+# ---- 制作大文件 / 渲染中间物 ----
+production/**/renders/
+production/**/*.mp4
+production/**/*.mov
+production/**/*.mkv
+production/**/*.avi
+production/**/*.wav
+production/**/*.mp3
+production/**/*.fcpxml
+production/**/*.prproj
+production/**/*.aep
+
+# ---- 素材大文件（assets 只保留索引 index.md）----
+assets/**/*.mp4
+assets/**/*.mov
+assets/**/*.png
+assets/**/*.jpg
+assets/**/*.jpeg
+assets/**/*.webp
+assets/**/*.psd
+assets/**/*.tif
+assets/**/*.tiff
+assets/**/*.ai
+
+# ---- 临时 / 缓存 ----
+*.tmp
+*.temp
+*.bak
+*.swp
+.cache/
+tmp/
+temp/
+
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 编辑器 / IDE ----
+.vscode/
+.idea/
+
+# ---- DSH / 本地环境（本机私有，不入库）----
+.dsh/
+AGENTS.local.md
+CLAUDE.local.md
+CLAUDE.md
