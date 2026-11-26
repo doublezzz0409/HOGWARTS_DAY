@@ -64,6 +64,15 @@ HOGWARTS_DAY uses a staged creative workflow. Each stage has a defined responsib
 | WF-04 · Director Integration | Connect approved scenes into a coherent audiovisual experience. |
 | WF-05 · Production & Review | Prepare production, evaluate results, and feed insights back into the workflow. |
 
+### The Boundary Between WF-01 and WF-02
+
+The division of responsibility between research and planning is deliberately clear:
+
+- **WF-01** is responsible for finding out *what in this world is worth experiencing.*
+- **WF-02** is responsible for deciding *what we will take the audience to experience, and how to organize these experiences into a compelling whole.*
+
+In short: WF-01 discovers what there is to experience; WF-02 chooses what to experience and how to structure it.
+
 ### A Controlled Creative Process
 
 The workflow emphasizes explicit decisions and stage boundaries:
