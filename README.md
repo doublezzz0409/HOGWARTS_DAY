@@ -189,6 +189,111 @@ In short: WF-01 discovers what there is to experience; WF-02 chooses what to exp
 
    Core question: How do all the earlier studies form a creative planning system that actually works?
 
+### WF-02 Development Discipline for Subsequent Modules
+
+**Scope: the remaining development of Module 2, and all research and development work of Modules 3, 4, 5, and 6.**
+
+#### 1. Always stay centered on the roadmap; no drift of research direction
+
+The goal of WF-02 is to process the world-experience candidates provided by WF-01 into video-experience designs that are genuinely worth watching. Each module must advance around the core tasks already set in the roadmap:
+
+- **Module 2: Experiential value & selection mechanisms** — Solve which experiences are worth putting into a video, why they are worth it, and how to judge and select them.
+- **Module 3: Experience composition & overall structure** — Solve how multiple experiences combine and how to form an appealing whole rather than a mere pile of brilliant fragments.
+- **Module 4: Audience attention & experience delivery** — Solve why the audience clicks, why they keep watching, how expectations are built and delivered, and how satisfaction is achieved during viewing.
+- **Module 5: Production constraints & quality verification** — Solve how worthwhile ideas are realized in actual production and how to judge the quality of the final cut.
+- **Module 6: Integration, case validation & method transfer** — Solve whether the modules can form a complete decision system, be validated through real cases, and be distilled into reusable methods.
+
+Do not upgrade some interesting theoretical problem that arises during research into a new main line.
+
+#### 2. Study real content first, then summarize methods
+
+1. Prioritize studying real creators, real works, real scenes, and real audience experiences.
+2. Research must go deep into concrete content: what the idea is, how the opening is presented, how the process advances, how audience expectations shift, and where surprise and satisfaction occur.
+3. Do not claim research is complete merely by listing abstract concepts, mechanism names, and theoretical classifications.
+4. Do not let frameworks replace cases, nor let the number of cases replace research depth.
+5. In particular, keep studying MrBeast's real works, examine why its content is worth watching, and then consider how to transfer it to the Hogwarts world.
+
+#### 3. Never polish endlessly for the sake of a perfect framework
+
+1. Do not pursue absolute theoretical completeness or fully uncontested conceptual boundaries.
+2. Do not repeatedly revise a framework that already works because of non-critical wording, classification, or terminology.
+3. Only stop to handle a problem when it substantively affects research conclusions, judgment accuracy, module responsibilities, or downstream execution.
+4. Solve problems that existing materials, evidence, and reasonable reasoning can resolve in the current stage, in one pass, rather than habitually deferring them.
+5. Once an output meets the current task goal, converge promptly; do not keep reviewing merely to find new problems.
+
+**A research framework is a tool, not the research result itself.**
+
+#### 4. Distinguish the severity of problems
+
+When a problem is found, first judge which category it belongs to:
+
+- **Blocking problem:** Would cause core conclusions to be wrong, tasks to be unexecutable, or module responsibilities to be confused. Must be resolved before continuing.
+- **Substantive problem:** Affects conclusion quality but can be supplemented or corrected within current research. Resolve in the current stage in principle.
+- **General problem:** Does not affect the current goal; may be recorded and should not block development.
+- **Optimization problem:** Only makes expression, classification, or frameworks prettier. Do not do it without clear benefit.
+
+Do not treat every problem found as a problem that must be redone.
+
+#### 5. Stay rigorous but do not manufacture false rigor
+
+1. Distinguish facts, primary evidence, creator expressions, research analysis, inferences, and unverified hypotheses.
+2. Do not package inferences as facts, nor judgments without audience data as actual audience feedback.
+3. When evidence is insufficient, state the uncertainty clearly; do not search endlessly for evidence just to appear complete.
+4. Do not reject the research value of existing evidence merely because some ideal type of evidence is missing.
+5. Do not generalize findings from a single case into a universal law.
+6. Match conclusions to the strength of the evidence.
+
+#### 6. Every module must produce actual development output
+
+A module must not leave behind only research plans, problem lists, conceptual frameworks, and to-dos. It must progressively form:
+
+- An actual answer to the module's core question;
+- Research findings supported by real cases;
+- Methods usable for concrete creative decisions;
+- Necessary judgment criteria, counterexamples, and applicable boundaries;
+- Clear output that downstream modules can use.
+
+In particular, avoid modules waiting on one another: do not refuse to produce usable output in the current module merely because downstream modules are not yet developed.
+
+#### 7. Clear division of labor between modules without artificial barriers
+
+1. Handle only the problems the current module is genuinely responsible for.
+2. When a cross-module problem appears, first solve the part the current module can solve.
+3. Hand off only what genuinely requires in-depth handling by a downstream module.
+4. Do not habitually mark what could be solved now as "left to Module 3" or "left to Module 4."
+5. Downstream modules should use upstream outputs rather than repeatedly overturning completed upstream research.
+
+#### 8. Keep a clear sense of convergence
+
+Every research stage must answer three questions:
+
+1. What was this module originally meant to solve?
+2. What is solved now, and which substantive problems remain unsolved?
+3. Do the remaining problems actually prevent the module from being completed?
+
+If the core goal is reached and remaining problems are only general optimization, end the current stage and move to the next task. Do not keep adding research tasks to make the report look more complete.
+
+#### 9. Working responsibilities
+
+As a research and development collaborator, one must:
+
+- Proactively drive real research rather than passively designing processes.
+- Proactively point out research errors without turning fault-finding into the main job.
+- Judge the severity of problems rather than demanding rework whenever a problem is found.
+- Prioritize delivering genuinely useful output.
+- Not change the roadmap or expand research scope without authorization.
+- Not describe an unvalidated framework as a mature system.
+- Not manufacture complexity to appear professional.
+- When the director points out a drift from the center, return immediately to the module's core task without defending prior complex work.
+
+#### 10. Final principle
+
+**We develop WF-02 to learn how to create videos that truly attract audiences, not to build a seemingly perfect theoretical system.**
+
+Research must go deep, judgment must be rigorous, frameworks must be sufficient, and results must be usable. Better to complete one module with real cases, clear conclusions, and practical usability than to spend large amounts of time polishing a perfect framework that never enters actual creation.
+
+**Take solving problems as the endpoint, practical usability as the acceptance standard, and the overall roadmap as the direction.**
+
 ### A Controlled Creative Process
 
 The workflow emphasizes explicit decisions and stage boundaries:
