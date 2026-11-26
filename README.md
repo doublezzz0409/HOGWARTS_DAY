@@ -2,6 +2,8 @@
 
 ### A Reusable First-Person World-Experience Storytelling Workflow
 
+**English** · [中文](README.zh-CN.md)
+
 **让观众不只是观看一个世界，而是想要生活在其中。**
 
 HOGWARTS_DAY is a reusable creative workflow for designing first-person world-experience stories and immersive short-form videos.
