@@ -142,6 +142,18 @@ In short: WF-01 discovers what there is to experience; WF-02 chooses what to exp
 - Does it easily make audiences anticipate the next episode?
 - Does it help build a distinctive channel brand?
 
+### WF-02 Module Research Contributions & Completion Status
+
+| Module | Current research contribution | Completion |
+|---|---|---|
+| Module 0: Research foundations & problem map | Established partial categorization of creative questions, and factual and research boundaries | Partially covered |
+| Module 1: Creative generation mechanisms | Creative sources, creative transformation, cross-domain transfer, concept deepening | Initial results available |
+| Module 2: Experiential value & selection mechanisms | Established the necessity of multi-dimensional evaluation and initial awareness of the problem | Not yet resolved |
+| Module 3: Experience composition & overall structure | Recognized that individual brilliance does not equal overall value | Not yet resolved |
+| Module 4: Audience attention & experience delivery | Distinguished spread/attention appeal from genuine experiential value | Not yet resolved |
+| Module 5: Production constraints & quality verification | Preliminarily clarified the separation of creative value and production feasibility | Not yet resolved |
+| Module 6: Integration, case validation & method transfer | Conducted a single-video creative-generation stress test, but have not validated the full decision system | Not yet resolved |
+
 ### A Controlled Creative Process
 
 The workflow emphasizes explicit decisions and stage boundaries:
