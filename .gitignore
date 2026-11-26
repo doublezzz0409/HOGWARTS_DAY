@@ -51,3 +51,15 @@ desktop.ini
 AGENTS.local.md
 CLAUDE.local.md
 CLAUDE.md
+
+# ---- 例外：仅放行两个项目级 Skill 作为可迁移工作流依赖 ----
+# 目的：让 WF-03 依赖的 ACTING / CINEDANCE 随仓库迁移；其余 .dsh/ 内容仍全部忽略。
+# 注意：.dsh/ 整体忽略后，需先放行必要父目录，再放行具体文件。
+!.dsh/
+.dsh/*
+!.dsh/skills/
+.dsh/skills/*
+!.dsh/skills/acting/
+!.dsh/skills/acting/SKILL.md
+!.dsh/skills/cinedance-higgsfield/
+!.dsh/skills/cinedance-higgsfield/SKILL.md

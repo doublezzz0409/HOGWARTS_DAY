@@ -60,7 +60,7 @@ HOGWARTS_DAY uses a staged creative workflow. Each stage has a defined responsib
 | WF-00 · Project Initialization & Task Routing | Establish project context, constraints, and task ownership. |
 | WF-01 · World-Life Research | Investigate the world's canon, everyday life, activities, locations, and experience opportunities. |
 | WF-02 · Creative Planning | Develop the overall creative direction and experience strategy. |
-| WF-03 · Scene Development | Design individual scenes through iterative creative review and approval. |
+| WF-03 · Director Script → Video Prompt Production | Turn the approved WF-02 director script into executable video-generation prompts and generation tasks. Detailed rules: `core/WF-03-导演稿到视频提示词加工工作流-v1.0.md`. |
 | WF-04 · Director Integration | Connect approved scenes into a coherent audiovisual experience. |
 | WF-05 · Production & Review | Prepare production, evaluate results, and feed insights back into the workflow. |
 
@@ -147,12 +147,12 @@ In short: WF-01 discovers what there is to experience; WF-02 chooses what to exp
 | Module | Current research contribution | Completion |
 |---|---|---|
 | Module 0: Research foundations & problem map | Established partial categorization of creative questions, and factual and research boundaries | Partially covered |
-| Module 1: Creative generation mechanisms | Creative sources, creative transformation, cross-domain transfer, concept deepening | Initial results available |
-| Module 2: Experiential value & selection mechanisms | Established the necessity of multi-dimensional evaluation and initial awareness of the problem | Not yet resolved |
-| Module 3: Experience composition & overall structure | Recognized that individual brilliance does not equal overall value | Not yet resolved |
-| Module 4: Audience attention & experience delivery | Distinguished spread/attention appeal from genuine experiential value | Not yet resolved |
-| Module 5: Production constraints & quality verification | Preliminarily clarified the separation of creative value and production feasibility | Not yet resolved |
-| Module 6: Integration, case validation & method transfer | Conducted a single-video creative-generation stress test, but have not validated the full decision system | Not yet resolved |
+| Module 1: Creative generation mechanisms | Creative sources, creative transformation, cross-domain transfer, concept deepening | Reference-level stage result; not formally accepted |
+| Module 2: Experiential value & selection mechanisms | Established the necessity of multi-dimensional evaluation and initial awareness of the problem | v1.0 completed; pending director acceptance |
+| Module 3: Experience composition & overall structure | Recognized that individual brilliance does not equal overall value | v1.0 completed; director-accepted |
+| Module 4: Audience attention & experience delivery | Distinguished spread/attention appeal from genuine experiential value | v1.0 completed; director-accepted |
+| Module 5: Production constraints & quality verification | Preliminarily clarified the separation of creative value and production feasibility | Deferred |
+| Module 6: Integration, case validation & method transfer | Conducted a single-video creative-generation stress test, but have not validated the full decision system | Deferred |
 
 ### WF-02 Overall Research Roadmap
 
@@ -367,7 +367,7 @@ The project also maintains decision records and project-state documentation to r
 
 The v0.1 baseline establishes the initial project structure, collaboration rules, and workflow specification.
 
-Current development focuses on the first formal execution of WF-01: researching everyday life and experience opportunities within the Wizarding World.
+Current development has passed WF-01's first formal research execution and WF-02's first practical loop (closed at v0.2.1), and has entered WF-03 prompt production (definition v1.1 approved; EP01 SC03 first practical pass completed).
 
 | Area | Status |
 |---|---|
@@ -375,8 +375,10 @@ Current development focuses on the first formal execution of WF-01: researching 
 | Core collaboration rules | Established |
 | Workflow specification | Written |
 | WF-00 | Conditional Pass |
-| WF-01 | First formal research execution completed; fact corrections and director acceptance pending |
-| WF-02 to WF-05 | Not started |
+| WF-01 | First formal research execution completed; report not included in this commit scope; fact corrections and director acceptance pending |
+| WF-02 | v0.2.1 first-practical loop closed; formally closed |
+| WF-03 | Definition v1.1 approved; EP01 SC03 first practical prompt-production pass completed; long-term stability not yet validated |
+| WF-04 / WF-05 | Not started (not to be described as started) |
 | Architecture validation through practical execution | In progress |
 
 The workflow specification has been established, but its practical effectiveness has not yet been fully validated. This project is being developed iteratively.
