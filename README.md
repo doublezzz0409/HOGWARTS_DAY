@@ -73,6 +73,75 @@ The division of responsibility between research and planning is deliberately cle
 
 In short: WF-01 discovers what there is to experience; WF-02 chooses what to experience and how to structure it.
 
+### WF-02 Multi-Dimensional Creative Decision Map
+
+> This is a coverage checklist for subsequent research, not a fixed scoring rubric.
+
+**01. Audience Appeal**
+
+- Does it spark curiosity?
+- Does it have a broad base of interest?
+- Is there a unique, clear viewing promise?
+- Can audiences from different backgrounds understand it?
+
+**02. Experiential Value**
+
+- What exactly can the audience experience?
+- Is it watching, participating, exploring, or gaining some kind of identity?
+- Does it offer an experience that the real world cannot provide?
+- Does it create a desire to experience it in person?
+
+**03. World Distinctiveness**
+
+- Does it fully express this world's unique rules?
+- Is it just ordinary life with a magical skin?
+- Does it reveal a lesser-known side of the world?
+- Is it consistent with canon and world-building?
+
+**04. Emotion & Psychological Connection**
+
+- Does it evoke wonder, joy, warmth, curiosity, or relaxation?
+- Does it create a sense of belonging?
+- Does it make the audience long for life here?
+- Does it form an emotional memory anchor?
+
+**05. Relationships Between Experiences**
+
+- Can several experiences connect with one another?
+- Is there sequence and causality?
+- Do they repeatedly express the same kind of value?
+- Does the combination create new value that individual experiences lack?
+
+**06. Overall Narrative & Pacing**
+
+- Is there a complete experiential arc across a day?
+- Is there an opening, development, climax, and ending?
+- Are there boring, crowded, or broken parts?
+- Is there enough variation and anticipation?
+
+**07. Attention & Reach**
+
+- How to attract clicks?
+- How to keep providing reasons to watch?
+- How to pace information release and surprises?
+- How to deliver on the opening promise?
+- Does it have share and discussion value?
+
+**08. Production & Feasibility**
+
+- Can AI reliably realize it?
+- Are characters, spaces, and magic prone to drift?
+- Are reference images or complex continuous shots needed?
+- Is the cost-to-benefit ratio reasonable?
+- Are there copyright, factual, or safety concerns?
+
+**09. Serialization & Long-Term Value**
+
+- Can it form a series identity?
+- Are there other worlds or locations to extend into?
+- Does it easily make audiences anticipate the next episode?
+- Does it help build a distinctive channel brand?
+
 ### A Controlled Creative Process
 
 The workflow emphasizes explicit decisions and stage boundaries:
