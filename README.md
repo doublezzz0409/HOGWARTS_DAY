@@ -50,10 +50,7 @@ The project organizes creative work into long-horizon workflows. The three curre
 | **WF-01 · World Research** | Research the world, setting, locations, daily life, experiences, and raw material usable for video creation. Produces world knowledge and candidate experiences. | Research practice done; formal spec not yet consolidated into the repo (see status) |
 | **WF-02 · Episode Creative Planning** | Turn an idea seed into a complete episode director's script through a seven-stage process. | Closed after first real end-to-end run (V0.2.1) |
 | **WF-03 · Director Script → Video-Generation Prompt Assembly** | Convert a WF-02 director script into executable video-generation prompts, per director-specified scope and strategy. | Definition v1.1 approved; first real processing done; long-term stability unverified |
-
-> WF-04 (global director integration) and WF-05 (production & review) are specified at a high level in `WORKFLOW_SPEC.md` but **not yet started**.
-
-Detailed definitions live in **`WORKFLOW_SPEC.md`** (WF-00~WF-05) and **`core/WF-03-导演稿到视频提示词加工工作流-v1.0.md`** (authoritative WF-03 spec). The README summarizes; the specs are the source of truth.
+Detailed definitions live in **`WORKFLOW_SPEC.md`** (WF-00~WF-03) and **`core/WF-03-导演稿到视频提示词加工工作流-v1.0.md`** (authoritative WF-03 spec). The README summarizes; the specs are the source of truth.
 
 ### WF-01 · World Research
 
@@ -199,8 +196,6 @@ HOGWARTS_DAY/
 | — M5 · Production constraints & QA | **Deferred** (director will evaluate personally). |
 | — M6 · Integration, case validation & method transfer | **Deferred**. |
 | **WF-03 · Prompt assembly** | Definition **v1.1 approved**; EP01 SC03 completed a **first real processing run**; **long-term stability and cross-project reuse not yet verified**. |
-| **WF-04 · Global director integration** | Not started. |
-| **WF-05 · Production & review** | Not started. |
 
 > Important: research-level findings are candidate conclusions and have **not been empirically validated with real audience data**. A single successful run does **not** mean long-term stability is proven. Nothing here is described as audience-proven fact.
 
@@ -231,7 +226,7 @@ HOGWARTS_DAY/
 5. **Approval before progression.** Explicit decision boundaries; the director holds final creative authority.
 6. **Reusable knowledge over disposable output.** Turn approved discoveries into reusable workflow assets.
 
-For the full rules, see [`PROJECT_RULES.md`](PROJECT_RULES.md). For the six workflows' inputs/tasks/outputs, see [`WORKFLOW_SPEC.md`](WORKFLOW_SPEC.md). For director decisions, see [`DECISION_LOG.md`](DECISION_LOG.md). For live project state, see [`PROJECT_STATE.md`](PROJECT_STATE.md).
+For the full rules, see [`PROJECT_RULES.md`](PROJECT_RULES.md). For the current workflows' (WF-00~WF-03) inputs/tasks/outputs, see [`WORKFLOW_SPEC.md`](WORKFLOW_SPEC.md). For director decisions, see [`DECISION_LOG.md`](DECISION_LOG.md). For live project state, see [`PROJECT_STATE.md`](PROJECT_STATE.md).
 
 ---
 
