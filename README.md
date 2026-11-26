@@ -154,6 +154,41 @@ In short: WF-01 discovers what there is to experience; WF-02 chooses what to exp
 | Module 5: Production constraints & quality verification | Preliminarily clarified the separation of creative value and production feasibility | Not yet resolved |
 | Module 6: Integration, case validation & method transfer | Conducted a single-video creative-generation stress test, but have not validated the full decision system | Not yet resolved |
 
+### WF-02 Overall Research Roadmap
+
+1. **Module 0: Research foundations & problem map** · Preliminary plan established
+   Define research goals, problem scope, research subjects, evidentiary requirements, and the boundaries between modules.
+
+2. **Module 1: Creative generation mechanisms** · Initial results available
+   Study how to generate ideas, discover opportunities, perform creative transformation, transfer across domains, and deepen concepts.
+
+   Core question: How do we find ideas worth filming?
+
+3. **Module 2: Experiential value & selection mechanisms** · Current stage, capacity testing pending
+   Study how to identify experiential value, judge whether an experience is worth filming, and distinguish different kinds of value and their evidence.
+
+   Core question: Why is an experience worth filming?
+
+4. **Module 3: Experience composition & structure** · Not yet started
+   Study how to organize multiple experiences together to form an episode that has layers, variation, and overall appeal.
+
+   Core question: How do several good experiences combine into a good episode?
+
+5. **Module 4: Audience attention & experience delivery** · Not yet started
+   Study opening appeal, attention maintenance, the viewing process, expectation building, experience delivery, and audience satisfaction.
+
+   Core question: How do we keep the audience watching and deliver the promised experience?
+
+6. **Module 5: Production constraints & quality verification** · Not yet started
+   Study creative production feasibility, AIGC implementation constraints, quality risks, and verification methods.
+
+   Core question: How does a good idea actually get produced with high quality?
+
+7. **Module 6: Integration, case validation & method transfer** · Not yet started
+   Integrate earlier research results, conduct comprehensive case validation, and distill transferable methods.
+
+   Core question: How do all the earlier studies form a creative planning system that actually works?
+
 ### A Controlled Creative Process
 
 The workflow emphasizes explicit decisions and stage boundaries:
